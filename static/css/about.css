@@ -1,0 +1,19 @@
+#first{
+    text-align: center;
+}
+
+#main{
+    display: flex;
+}
+.image{
+    width: 50%;
+    height: 150px;
+}
+.mydiv{
+    margin-right: 20px;
+}
+button{
+    background-color: #e35f5f;
+    width: 100px;
+    height: 20px;
+}

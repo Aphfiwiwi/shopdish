@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration</title>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/registration.css' %}">
+</head>
+<body>
+
+<form action="">
+
+    <legend><b>Registration Form</b></legend>
+    <br><br>
+
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" required="required" max="7">
+    <br><br>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" required="required">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email"  required="required">
+    <br><br>
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd"  required="required">
+    <br><br>
+
+    <label for="rpwd">Re-type password:</label>
+    <input type="password" id="rpwd" required="required">
+    <br><br>
+
+    <label for="contact">Contact:</label>
+    <input type="text" id="contact"  required="required">
+    <br><br>
+
+    <label for="gender">Gender:</label>
+    <select name="" id="gender">
+        <option value="" disabled="disabled">--Choose one---</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+
+    </select>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+
+</form>
+<br><br>
+
+</body>
+</html>
